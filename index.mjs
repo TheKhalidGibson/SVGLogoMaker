@@ -6,7 +6,7 @@ import {Circle, Square, Triangle} from "./lib/shapes.mjs"
 
 // let example = new SVG("AND", "green", "triangle", "yellow");
 
-let {fill, textfill, shape, logo} = await inquirer
+let {fill, textFill, shape, logo} = await inquirer
     .prompt([
       {
         type: 'list',
@@ -16,7 +16,7 @@ let {fill, textfill, shape, logo} = await inquirer
       },
       {
         type: 'list',
-        name: 'textfill',
+        name: 'textFill',
         message: "What color would you like the svg fill to be?",
         choices: ['Green', 'Blue', 'Red', 'Yellow', 'Orange', 'Pink']
       },

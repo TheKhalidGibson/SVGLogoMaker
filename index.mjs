@@ -1,16 +1,22 @@
 import inquirer from "inquirer";
 import fs from "fs/promises";
 
-const fs = require("fs")
-let SVG = require("./lib/svg")
+import {Circle, Square, Triangle} from "./lib/shapes.mjs"
+// let SVG = require("./lib/svg")
 
-let example = new SVG("AND", "green", "triangle", "yellow");
+// let example = new SVG("AND", "green", "triangle", "yellow");
 
-let {fill, shape, logo} = await inquirer
+let {fill, textfill, shape, logo} = await inquirer
     .prompt([
       {
         type: 'list',
         name: 'fill',
+        message: "What color would you like the svg fill to be?",
+        choices: ['Green', 'Blue', 'Red', 'Yellow', 'Orange', 'Pink']
+      },
+      {
+        type: 'list',
+        name: 'textfill',
         message: "What color would you like the svg fill to be?",
         choices: ['Green', 'Blue', 'Red', 'Yellow', 'Orange', 'Pink']
       },

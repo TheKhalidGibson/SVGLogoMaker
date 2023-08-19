@@ -36,8 +36,13 @@ let {fill, textFill, shape, logo} = await inquirer
 
 
 
-fs.writeFile("shape.svg", example.markUp, function(err){
+     .then (function(data){
+        console.log(data)
+      
+     })
 
-    if(err)
-    console.log(err)
-})
+// fs.writeFile("shape.svg", example.markUp, function(err){
+
+//     if(err)
+//     console.log(err)
+// })

@@ -42,7 +42,7 @@ inquirer
         let image = ""
         let fileName = ""
         if (data.shape === "square"){
-          const square = new Square(data.fill. data.text, data.textFill)
+          const square = new Square(data.fill, data.text, data.textFill)
           image = square.render()
           fileName = "./examples/logo.svg"
         } else if (data.shape === "circle"){

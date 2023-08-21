@@ -37,6 +37,14 @@ THEN the intended logo will be displayed with the correct pixels (300x200 px) an
 
 ## Screenshots
 
+![Image showing a blue triangle with yellow text that reads "ABC"](image-4.png)
+
+![Image showing a pink square with blue text that reads "IJK"](image-7.png)
+
+![Image showing a red circle with green text that reads "EFG"](image-3.png)
+
+
+
 
 ## Additional Requirements
 

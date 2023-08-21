@@ -44,15 +44,15 @@ inquirer
         if (data.shape === "square"){
           const square = new Square(data.fill. data.text, data.textFill)
           image = square.render()
-          fileName = "./examples/square.svg"
+          fileName = "./examples/logo.svg"
         } else if (data.shape === "circle"){
           const circle = new Circle(data.fill, data.text, data.textFill)
           image = circle.render()
-          fileName = "./examples/circle.svg"
+          fileName = "./examples/logo.svg"
         } else {
           const triangle = new Triangle(data.fill, data.text, data.textFill)
           image = triangle.render()
-          fileName = "./examples/triangle.svg"
+          fileName = "./examples/logo.svg"
 
         }
 

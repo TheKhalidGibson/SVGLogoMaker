@@ -11,13 +11,13 @@ inquirer
       {
         type: 'list',
         name: 'fill',
-        message: "What color would you like the svg fill to be?",
+        message: "What color would you like the svg shape to be?",
         choices: ['Green', 'Blue', 'Red', 'Yellow', 'Orange', 'Pink']
       },
       {
         type: 'list',
         name: 'textFill',
-        message: "What color would you like the svg fill to be?",
+        message: "What color would you like the text to be?",
         choices: ['Green', 'Blue', 'Red', 'Yellow', 'Orange', 'Pink']
       },
       {
@@ -29,7 +29,7 @@ inquirer
       {
         type: 'input',
         name: 'text',
-        message: "What logo would you like for the svg? Up to 3 characters",
+        message: "What text would you like for the svg? Up to 3 characters",
       },
      ])
 
@@ -38,6 +38,7 @@ inquirer
 
      .then (function(data){
         console.log(data)
+        console.log("Generated logo.svg!")
       
         let image = ""
         let fileName = ""
@@ -61,5 +62,7 @@ inquirer
             if(err)
             console.log(err)
         })
+
+
 
 })

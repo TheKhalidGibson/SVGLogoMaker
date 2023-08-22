@@ -35,15 +35,11 @@ WHEN I open the `logo.svg` file in a browser
 THEN the intended logo will be displayed with the correct pixels (300x200 px) and it will matched the criteria entered
 ```
 
-## Screenshots
+## Mock-Up
 
-![Image showing a blue triangle with yellow text that reads "ABC"](./assets/image-4.png)
+The following image shows the mock-up of the generated SVG that I was aiming to recreate based upon user input. As you can see in this example the user has chosen `green` for the shape color, `white` for the text color, `circle` from the list of shapes, and `SVG` for the text. Note that this is just an image of the output SVG and not the SVG file itself:
 
-![Image showing a pink square with blue text that reads "IJK"](./assets/image-7.png)
-
-![Image showing a red circle with green text that reads "EFG"](./assets/image-3.png)
-
-
+![Image showing a green circle with white text that reads "SVG.".](./Images/10-oop-homework-demo.png)
 
 
 ## Additional Requirements
@@ -61,3 +57,23 @@ It was recommended that I followed a particular file structure for my directory 
 ## Review 
 
 The following has been placed here to meet requirements for review:
+
+Refer to the following 
+[Video Submission](https://drive.google.com/file/d/1rJkLV2G5WexE9zcrZ43QV1_ttPI3WmsY/view) for a brief demonstration of my application to see its functionality
+
+Refer to this link [GitHub Repository](https://github.com/TheKhalidGibson/SVGLogoMaker) to view and explore the GitHub repo for this assignment
+
+
+## Screenshots
+
+These are the example SVG files:
+
+![Image showing a blue triangle with yellow text that reads "ABC"](./assets/image-4.png)
+
+![Image showing a pink square with blue text that reads "IJK"](./assets/image-7.png)
+
+![Image showing a red circle with green text that reads "EFG"](./assets/image-3.png)
+
+
+
+

@@ -39,7 +39,7 @@ THEN the intended logo will be displayed with the correct pixels (300x200 px) an
 
 The following image shows the mock-up of the generated SVG that I was aiming to recreate based upon user input. As you can see in this example the user has chosen `green` for the shape color, `white` for the text color, `circle` from the list of shapes, and `SVG` for the text. Note that this is just an image of the output SVG and not the SVG file itself:
 
-![Image showing a green circle with white text that reads "SVG.".](./Images/10-oop-homework-demo.png)
+![Image showing a green circle with white text that reads "SVG.".](./assets/10-oop-homework-demo.png)
 
 
 ## Additional Requirements
